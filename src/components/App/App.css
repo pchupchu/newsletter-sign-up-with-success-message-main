@@ -1,10 +1,10 @@
 .app {
     margin: 0 auto;
     min-height: 100vh;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    color: var(--white);
-    background-color: var(--saturated-dark-blue);
+    color: var(--dark-navy);
+    background-color: var(--pale-navy);
     /* display: flex;
     flex-direction: column;
     justify-content: center;
