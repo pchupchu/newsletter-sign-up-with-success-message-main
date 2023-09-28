@@ -12,10 +12,12 @@ function Form() {
   return (
     <section className="form">
         <form onSubmit={handleSubmit} className="form__container">
-          <label for="email" className="form__label">Email address</label>
+          <label for="email" className="form__label">Email address
             <input
               type="email"
-              className="form__item"
+              className={`form__item ${
+                isValid ? "" : "form__item_inactive"
+              }`}
               id="email"
               name="email"
               placeholder="email@company.com"
@@ -28,8 +30,9 @@ function Form() {
                 isValid ? "" : "form__item-error_active"
               }`}
             >
-              Error, please check your email
+              Valid email required
             </span>
+          </label>
           <button
               type="submit"
               disabled={!isValid}

@@ -11,9 +11,13 @@ body {
 
 :root {
   --white: #fff;
-  /* --black: #000; */
   --pale-navy: #36384d;
   --dark-navy: #242742;
+  --vermellion: #ff6155;
+  --error: rgba(255, 97, 85, 0.15);
+  --grey-25: rgba(25, 24, 43, 0.25);
+  --shadow: rgba(255, 97, 85, 0.50);
+  --gradient-1: linear-gradient(204deg, #ff6a3a 0%, #ff527b 100%);
 
 
 
