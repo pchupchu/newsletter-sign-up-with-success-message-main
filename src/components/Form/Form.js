@@ -1,12 +1,13 @@
 import './Form.css';
 import { useFormAndValidation } from "../../hooks/useFormAndValidation";
 
-function Form() {
+function Form({openPopup}) {
 
   const { values, handleChange, isValid } = useFormAndValidation();
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    openPopup();
   };
 
   return (

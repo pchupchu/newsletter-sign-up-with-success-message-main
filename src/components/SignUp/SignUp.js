@@ -1,7 +1,7 @@
 import Form from '../Form/Form';
 import './SignUp.css'
 
-function SignUp() {
+function SignUp({openPopup}) {
   return (
     <div className="signup">
       <div className='signup__image'></div>
@@ -13,7 +13,7 @@ function SignUp() {
           <li><p className='signup__text signup__item'>Measuring to ensure updates are a success</p></li>
           <li><p className='signup__text signup__item'>And much more!</p></li>
         </ul>
-        <Form />
+        <Form openPopup={openPopup}/>
       </div>
     </div>
   );

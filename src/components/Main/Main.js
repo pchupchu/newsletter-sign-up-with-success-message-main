@@ -1,10 +1,10 @@
 import SignUp from '../SignUp/SignUp';
 import './Main.css'
 
-function Main() {
+function Main({openPopup}) {
   return (
     <main className="main">
-      <SignUp />
+      <SignUp openPopup={openPopup} />
     </main>
   );
 }
