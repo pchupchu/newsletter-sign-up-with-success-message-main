@@ -14,14 +14,13 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/simple-mobilefirst-solution-to-react-component-using-flexbox-VdvdY-rbX_)
-- [Live Site URL](https://order-summary-component-main-vert-nu.vercel.app/)
+- [Live Site URL](https://newsletter-sign-up-with-success-message-main-rose.vercel.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://github.com/facebook/create-react-app)
 
