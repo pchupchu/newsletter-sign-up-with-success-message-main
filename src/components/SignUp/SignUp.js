@@ -13,8 +13,8 @@ function SignUp() {
           <li><p className='signup__text signup__item'>Measuring to ensure updates are a success</p></li>
           <li><p className='signup__text signup__item'>And much more!</p></li>
         </ul>
+        <Form />
       </div>
-      <Form />
     </div>
   );
 }
